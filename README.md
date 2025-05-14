@@ -1,10 +1,9 @@
-# Dynamic Prompt Learning: Addressing Cross-Attention Leakage for Text-Based Image Editing [(Neurips 2023)](https://neurips.cc/virtual/2023/poster/72801) 
+# EditMerge Project
 
-#### [Dynamic Prompt Learning: Addressing Cross-Attention Leakage for Text-Based Image Editing](https://arxiv.org/abs/2309.15664) 
+<!-- #### [Dynamic Prompt Learning: Addressing Cross-Attention Leakage for Text-Based Image Editing](https://arxiv.org/abs/2309.15664) 
+ -->
 
-#### [Kai Wang](https://scholar.google.com/citations?user=j14vd0wAAAAJ), [Fei Yang](https://scholar.google.com/citations?user=S1gksNwAAAAJ&hl=en), [Shiqi Yang](https://www.shiqiyang.xyz/), [Muhammad Atif Butt](https://scholar.google.com/citations?user=vf7PeaoAAAAJ&hl=en), [Joost van de Weijer](https://scholar.google.com/citations?user=Gsw2iUEAAAAJ&hl=en)
-
-![dpl](docs/comp_method_editing.png)
+<!-- ![dpl](docs/comp_method_editing.png) -->
 
 ## Requirments
 
@@ -76,22 +75,3 @@ More experimental images are shared via the [Google Drive.](https://drive.google
 
 It is an enhanced version of DPL with localization priors, including the bounding boxes or segmentation masks obtained from pretrained segmentation/detection models. The corresponding codes are shown in *"_3_dpl_seg_inv.py"* and *"_3_dpl_det_inv.py"*.
 
-## References
-If you find this repo helpful, do not hesitate to cite our papers. Thanks!
-
-```
-@article{wang2023DPL,
-  title={Dynamic prompt learning: Addressing cross-attention leakage for text-based image editing},
-  author={Wang, Kai and Yang, Fei and Yang, Shiqi and Butt, Muhammad Atif and van de Weijer, Joost},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
-  year={2023}
-}
-
-@article{tang2024locinv,
-  title={LocInv: Localization-aware Inversion for Text-Guided Image Editing},
-  author={Tang, Chuanming and Wang, Kai and Yang, Fei and van de Weijer, Joost},
-  journal={CVPR 2024 AI4CC workshop},
-  year={2024}
-}
-```
