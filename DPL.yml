@@ -1,4 +1,4 @@
-name: DPL
+name: EditMerge
 channels:
   - pytorch
   - nvidia
